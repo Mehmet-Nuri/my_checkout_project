@@ -22,6 +22,7 @@ productsDiv.addEventListener("click", (event)=>{
         //console.log("minus btn is clicked!");
         if(event.target.parentElement.querySelector(".quantity").innerText > 1){
             event.target.parentElement.querySelector(".quantity").innerText--;
+            
         }
         else{
             if(confirm("Product will be removed???")){
